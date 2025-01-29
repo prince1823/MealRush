@@ -10,7 +10,6 @@ import Cart from "./components/Cart";
 import RestaurantMenu from "./components/RestaurantMenu";
 import MenuSearch from "./components/MenuSearch";
 
-// Custom Error Component
 const ErrorPage = () => {
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
