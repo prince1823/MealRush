@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Outlet, createHashRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
 import Header from "./components/Header";
 import store from "./Utils/store";
@@ -32,7 +32,7 @@ const AppLayout = () => {
   );
 };
 
-const appRouter = createBrowserRouter([
+const appRouter = createHashRouter([
   {
     path: "/",
     element: <AppLayout />,
